@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\SurveyManagementSystemApi",
+    "\\SurveyManagementSystemApi\\Configurations",
+    "\\SurveyManagementSystemApi\\Contracts",
+    "\\SurveyManagementSystemApi\\Contracts\\Roles",
+    "\\SurveyManagementSystemApi\\Controllers",
+    "\\SurveyManagementSystemApi\\IServices",
+    "\\SurveyManagementSystemApi\\Persistence",
+    "\\SurveyManagementSystemApi\\Services"
+  ],
+  "SelectedNode": "\\SurveyManagementSystemApi\\Services\\PollService.cs",
+  "PreviewInSolutionExplorer": false
+}
