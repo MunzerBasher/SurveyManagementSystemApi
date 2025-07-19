@@ -1,0 +1,6 @@
+@SurveyManagementSystemApi_HostAddress = https://localhost:7048
+
+
+GET {{SurveyManagementSystemApi_HostAddress}}/api/polls
+
+###

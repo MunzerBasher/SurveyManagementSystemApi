@@ -1,0 +1,199 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\SurveyManagementSystemApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D31FA9-6962-4728-B1FB-50565AFD02E3}|SurveyManagementSystemApi.csproj|c:\\users\\dell\\desktop\\surveymanagementsystemapi\\abstractions\\consts\\defaultroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D31FA9-6962-4728-B1FB-50565AFD02E3}|SurveyManagementSystemApi.csproj|solutionrelative:abstractions\\consts\\defaultroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D31FA9-6962-4728-B1FB-50565AFD02E3}|SurveyManagementSystemApi.csproj|c:\\users\\dell\\desktop\\surveymanagementsystemapi\\contracts\\poll\\pollrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D31FA9-6962-4728-B1FB-50565AFD02E3}|SurveyManagementSystemApi.csproj|solutionrelative:contracts\\poll\\pollrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D31FA9-6962-4728-B1FB-50565AFD02E3}|SurveyManagementSystemApi.csproj|c:\\users\\dell\\desktop\\surveymanagementsystemapi\\surveymanagementsystemapi\\contracts\\poll\\pollresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D31FA9-6962-4728-B1FB-50565AFD02E3}|SurveyManagementSystemApi.csproj|solutionrelative:surveymanagementsystemapi\\contracts\\poll\\pollresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D31FA9-6962-4728-B1FB-50565AFD02E3}|SurveyManagementSystemApi.csproj|c:\\users\\dell\\desktop\\surveymanagementsystemapi\\surveymanagementsystemapi\\contracts\\question\\questionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D31FA9-6962-4728-B1FB-50565AFD02E3}|SurveyManagementSystemApi.csproj|solutionrelative:surveymanagementsystemapi\\contracts\\question\\questionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D31FA9-6962-4728-B1FB-50565AFD02E3}|SurveyManagementSystemApi.csproj|c:\\users\\dell\\desktop\\surveymanagementsystemapi\\surveymanagementsystemapi\\contracts\\poll\\pollrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D31FA9-6962-4728-B1FB-50565AFD02E3}|SurveyManagementSystemApi.csproj|solutionrelative:surveymanagementsystemapi\\contracts\\poll\\pollrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D31FA9-6962-4728-B1FB-50565AFD02E3}|SurveyManagementSystemApi.csproj|c:\\users\\dell\\desktop\\surveymanagementsystemapi\\surveymanagementsystemapi\\contracts\\poll\\pollvalidstions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D31FA9-6962-4728-B1FB-50565AFD02E3}|SurveyManagementSystemApi.csproj|solutionrelative:surveymanagementsystemapi\\contracts\\poll\\pollvalidstions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D31FA9-6962-4728-B1FB-50565AFD02E3}|SurveyManagementSystemApi.csproj|c:\\users\\dell\\desktop\\surveymanagementsystemapi\\surveymanagementsystemapi\\contracts\\answer\\answerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D31FA9-6962-4728-B1FB-50565AFD02E3}|SurveyManagementSystemApi.csproj|solutionrelative:surveymanagementsystemapi\\contracts\\answer\\answerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D31FA9-6962-4728-B1FB-50565AFD02E3}|SurveyManagementSystemApi.csproj|c:\\users\\dell\\desktop\\surveymanagementsystemapi\\surveymanagementsystemapi\\abstractions\\consts\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D31FA9-6962-4728-B1FB-50565AFD02E3}|SurveyManagementSystemApi.csproj|solutionrelative:surveymanagementsystemapi\\abstractions\\consts\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D31FA9-6962-4728-B1FB-50565AFD02E3}|SurveyManagementSystemApi.csproj|c:\\users\\dell\\desktop\\surveymanagementsystemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D31FA9-6962-4728-B1FB-50565AFD02E3}|SurveyManagementSystemApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DefaultRoles.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SurveyManagementSystemApi\\Abstractions\\Consts\\DefaultRoles.cs",
+              "RelativeDocumentMoniker": "Abstractions\\Consts\\DefaultRoles.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SurveyManagementSystemApi\\Abstractions\\Consts\\DefaultRoles.cs",
+              "RelativeToolTip": "Abstractions\\Consts\\DefaultRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T12:10:14.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PollRequest.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SurveyManagementSystemApi\\Contracts\\Poll\\PollRequest.cs",
+              "RelativeDocumentMoniker": "Contracts\\Poll\\PollRequest.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SurveyManagementSystemApi\\Contracts\\Poll\\PollRequest.cs",
+              "RelativeToolTip": "Contracts\\Poll\\PollRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T13:52:30.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuestionRequest.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SurveyManagementSystemApi\\SurveyManagementSystemApi\\Contracts\\Question\\QuestionRequest.cs",
+              "RelativeDocumentMoniker": "SurveyManagementSystemApi\\Contracts\\Question\\QuestionRequest.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SurveyManagementSystemApi\\SurveyManagementSystemApi\\Contracts\\Question\\QuestionRequest.cs",
+              "RelativeToolTip": "SurveyManagementSystemApi\\Contracts\\Question\\QuestionRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T13:52:05.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PollResponse.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SurveyManagementSystemApi\\SurveyManagementSystemApi\\Contracts\\Poll\\PollResponse.cs",
+              "RelativeDocumentMoniker": "SurveyManagementSystemApi\\Contracts\\Poll\\PollResponse.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SurveyManagementSystemApi\\SurveyManagementSystemApi\\Contracts\\Poll\\PollResponse.cs",
+              "RelativeToolTip": "SurveyManagementSystemApi\\Contracts\\Poll\\PollResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T13:51:54.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PollRequest.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SurveyManagementSystemApi\\SurveyManagementSystemApi\\Contracts\\Poll\\PollRequest.cs",
+              "RelativeDocumentMoniker": "SurveyManagementSystemApi\\Contracts\\Poll\\PollRequest.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SurveyManagementSystemApi\\SurveyManagementSystemApi\\Contracts\\Poll\\PollRequest.cs",
+              "RelativeToolTip": "SurveyManagementSystemApi\\Contracts\\Poll\\PollRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T13:51:45.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PollValidstions.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SurveyManagementSystemApi\\SurveyManagementSystemApi\\Contracts\\Poll\\PollValidstions.cs",
+              "RelativeDocumentMoniker": "SurveyManagementSystemApi\\Contracts\\Poll\\PollValidstions.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SurveyManagementSystemApi\\SurveyManagementSystemApi\\Contracts\\Poll\\PollValidstions.cs",
+              "RelativeToolTip": "SurveyManagementSystemApi\\Contracts\\Poll\\PollValidstions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T13:51:44.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AnswerResponse.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SurveyManagementSystemApi\\SurveyManagementSystemApi\\Contracts\\Answer\\AnswerResponse.cs",
+              "RelativeDocumentMoniker": "SurveyManagementSystemApi\\Contracts\\Answer\\AnswerResponse.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SurveyManagementSystemApi\\SurveyManagementSystemApi\\Contracts\\Answer\\AnswerResponse.cs",
+              "RelativeToolTip": "SurveyManagementSystemApi\\Contracts\\Answer\\AnswerResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T13:51:42.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PaginatedList.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SurveyManagementSystemApi\\SurveyManagementSystemApi\\Abstractions\\Consts\\PaginatedList.cs",
+              "RelativeDocumentMoniker": "SurveyManagementSystemApi\\Abstractions\\Consts\\PaginatedList.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SurveyManagementSystemApi\\SurveyManagementSystemApi\\Abstractions\\Consts\\PaginatedList.cs",
+              "RelativeToolTip": "SurveyManagementSystemApi\\Abstractions\\Consts\\PaginatedList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T13:51:30.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SurveyManagementSystemApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SurveyManagementSystemApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T08:41:21.145Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\SurveyManagementSystemApi"
+    "\\SurveyManagementSystemApi",
+    "\\SurveyManagementSystemApi\\Contracts",
+    "\\SurveyManagementSystemApi\\Contracts\\Poll"
   ],
   "SelectedNode": "\\SurveyManagementSystemApi\\Program.cs",
   "PreviewInSolutionExplorer": false

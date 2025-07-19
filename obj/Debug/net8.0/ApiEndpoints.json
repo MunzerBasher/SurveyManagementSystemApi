@@ -1,0 +1,842 @@
+[
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.QuestionController",
+    "Method": "ToggleStatus",
+    "RelativePath": "{pollId}ToggleStatus{questionId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pollId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "questionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyManagementSystemApi.Services.Result\u00601[[SurveyManagementSystemApi.Contracts.Question.QuestionResponse, SurveyManagementSystemApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.AccountController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/Account/Change-Password",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "changePasswordRequest",
+        "Type": "SurveyManagementSystemApi.Contracts.User.ChangePasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.AccountController",
+    "Method": "GetProfile",
+    "RelativePath": "api/Account/Profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyManagementSystemApi.Contracts.User.UserProfileResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.AccountController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/Account/Profile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateProfileRequest",
+        "Type": "SurveyManagementSystemApi.Contracts.User.UpdateProfileRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.AuthController",
+    "Method": "ConformEmailAsync",
+    "RelativePath": "api/Auth/Conform-Email",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SurveyManagementSystemApi.Contracts.User.ConfirmEmailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.AuthController",
+    "Method": "ForgetPasswordAsync",
+    "RelativePath": "api/Auth/Forget-Password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emali",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequest",
+        "Type": "SurveyManagementSystemApi.Entities.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyManagementSystemApi.Entities.AuthResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.AuthController",
+    "Method": "ReFreshToken",
+    "RelativePath": "api/Auth/ReFreshToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refreshTokenRequest",
+        "Type": "SurveyManagementSystemApi.Contracts.User.ReFreshTokenRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyManagementSystemApi.Entities.AuthResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerRequest",
+        "Type": "SurveyManagementSystemApi.Contracts.User.RegisterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.AuthController",
+    "Method": "ResendConfirmationEmailAsync",
+    "RelativePath": "api/Auth/ResendConform-Email",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SurveyManagementSystemApi.Contracts.User.ResendConfirmationEmailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.AuthController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/Auth/Reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SurveyManagementSystemApi.Contracts.User.ResetPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.PollsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Polls",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyManagementSystemApi.Services.Result\u00601[[System.Collections.Generic.IEnumerable\u00601[[SurveyManagementSystemApi.Contracts.Poll.PollResponse, SurveyManagementSystemApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.PollsController",
+    "Method": "Add",
+    "RelativePath": "api/Polls",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "poll",
+        "Type": "SurveyManagementSystemApi.Contracts.Poll.PollRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.PollsController",
+    "Method": "Get",
+    "RelativePath": "api/Polls/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyManagementSystemApi.Entities.Poll",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.PollsController",
+    "Method": "Delete",
+    "RelativePath": "api/Polls/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.PollsController",
+    "Method": "Update",
+    "RelativePath": "api/Polls/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "poll",
+        "Type": "SurveyManagementSystemApi.Contracts.Poll.PollRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyManagementSystemApi.Services.Result\u00601[[SurveyManagementSystemApi.Entities.Poll, SurveyManagementSystemApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.VoteController",
+    "Method": "AvalibleQuestions",
+    "RelativePath": "api/polls/{pollId}/Vote",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pollId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyManagementSystemApi.Services.Result\u00601[[System.Collections.Generic.IEnumerable\u00601[[SurveyManagementSystemApi.Contracts.Question.QuestionResponse, SurveyManagementSystemApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.VoteController",
+    "Method": "Add",
+    "RelativePath": "api/polls/{pollId}/Vote",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pollId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "voteRequest",
+        "Type": "SurveyManagementSystemApi.Contracts.Vote.VoteRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyManagementSystemApi.Services.Result",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.PollsController",
+    "Method": "GetCurrent",
+    "RelativePath": "api/Polls/Current",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyManagementSystemApi.Services.Result\u00601[[System.Collections.Generic.IEnumerable\u00601[[SurveyManagementSystemApi.Contracts.Poll.PollResponse, SurveyManagementSystemApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.PollsController",
+    "Method": "ToggleStatus",
+    "RelativePath": "api/Polls/ToggleStatus/{pollId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pollId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.QuestionController",
+    "Method": "Add",
+    "RelativePath": "api/Question",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Request",
+        "Type": "SurveyManagementSystemApi.Contracts.Question.QuestionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyManagementSystemApi.Services.Result\u00601[[SurveyManagementSystemApi.Contracts.Question.QuestionResponse, SurveyManagementSystemApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.QuestionController",
+    "Method": "Update",
+    "RelativePath": "api/Question",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Request",
+        "Type": "SurveyManagementSystemApi.Contracts.Question.QuestionRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "pollId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyManagementSystemApi.Services.Result\u00601[[SurveyManagementSystemApi.Contracts.Question.QuestionResponse, SurveyManagementSystemApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.QuestionController",
+    "Method": "GetAll",
+    "RelativePath": "api/Question/{PollId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PollId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyManagementSystemApi.Services.Result\u00601[[System.Collections.Generic.IEnumerable\u00601[[SurveyManagementSystemApi.Contracts.Question.QuestionResponse, SurveyManagementSystemApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.QuestionController",
+    "Method": "Get",
+    "RelativePath": "api/Question/{pollID}/{questionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pollID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "questionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyManagementSystemApi.Services.Result\u00601[[SurveyManagementSystemApi.Contracts.Question.QuestionResponse, SurveyManagementSystemApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.QuestionController",
+    "Method": "GetAvalibleQuestions",
+    "RelativePath": "api/Question/AvalibleQuestions/{PollId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PollId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyManagementSystemApi.Services.Result\u00601[[System.Collections.Generic.IEnumerable\u00601[[SurveyManagementSystemApi.Contracts.Question.QuestionResponse, SurveyManagementSystemApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.ResultController",
+    "Method": "GetPollResult",
+    "RelativePath": "api/Result/{PollId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PollId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyManagementSystemApi.Contracts.Poll.PollVoteResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.ResultController",
+    "Method": "GetPollResultPerDay",
+    "RelativePath": "api/Result/{PollId}/PerDay",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PollId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyManagementSystemApi.Contracts.Vote.VotePerDayResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.ResultController",
+    "Method": "GetPollResultPerQuestion",
+    "RelativePath": "api/Result/{PollId}/PerQuestion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PollId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SurveyManagementSystemApi.Contracts.Vote.VotePerQuestionResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.RolesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Roles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "includeDisabled",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.RolesController",
+    "Method": "Add",
+    "RelativePath": "api/Roles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SurveyManagementSystemApi.Contracts.Roles.RoleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.RolesController",
+    "Method": "Get",
+    "RelativePath": "api/Roles/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.RolesController",
+    "Method": "Update",
+    "RelativePath": "api/Roles/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "SurveyManagementSystemApi.Contracts.Roles.RoleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.RolesController",
+    "Method": "ToggleStatus",
+    "RelativePath": "api/Roles/{id}/toggle-status",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.UsersManagerController",
+    "Method": "GetAll",
+    "RelativePath": "api/UsersManager",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.UsersManagerController",
+    "Method": "Add",
+    "RelativePath": "api/UsersManager",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SurveyManagementSystemApi.Contracts.User.CreateUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.UsersManagerController",
+    "Method": "Get",
+    "RelativePath": "api/UsersManager/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.UsersManagerController",
+    "Method": "Update",
+    "RelativePath": "api/UsersManager/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "SurveyManagementSystemApi.Contracts.User.UpdateUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.UsersManagerController",
+    "Method": "ToggleStatus",
+    "RelativePath": "api/UsersManager/{id}/toggle-status",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SurveyManagementSystemApi.Controllers.UsersManagerController",
+    "Method": "Unlock",
+    "RelativePath": "api/UsersManager/{id}/unlock",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
