@@ -1,12 +1,15 @@
 🗳️ Survey Web API
+
 A powerful and secure Survey Web API built with .NET 8 (C#) and ASP.NET Core. This system allows users to browse available polls, answer questions, and cast their votes. It also includes a comprehensive Admin Panel for managing polls, questions, answers, votes, results, users, roles, and permissions.
 
 Designed following SOLID principles and utilizing modern design patterns for scalability and maintainability, such as:
+
 ✅ Result Pattern
 ⚙️ Options Pattern
 💡 Dependency Injection
 
 🚀 Features
+
 🧑‍💻 User Side
 Browse available polls and related questions
 Choose from multiple answers
@@ -14,6 +17,7 @@ Vote on polls
 View personal voting history or public results (if allowed)
 
 🛠️ Admin Panel
+
 Full CRUD operations for:
 Polls
 Questions
@@ -25,6 +29,7 @@ User role assignment and authorization
 System monitoring and background task management
 
 🛡️ Security & Standards
+
 ✅ JWT Authentication with Refresh Token
 🔐 Role-based Authorization using ASP.NET Core Identity
 🌐 Cross-Origin Resource Sharing (CORS) support
@@ -33,6 +38,7 @@ System monitoring and background task management
 🔒 Secure password hashing and validation
 
 🧰 Technologies & Tools
+
 Category	Tech Stack
 Backend	.NET 8 (C#), ASP.NET Core Web API
 Database	SQL Server, EF Core, T-SQL Stored Procedures
@@ -47,12 +53,14 @@ Mapping	AutoMapper
 API Monitoring	Health Checks, Logging, Exception Middleware
 
 📐 Architecture & Design Patterns
+
 🧱 Clean Architecture with separation
 🧩 Result Pattern for consistent API responses
 ⚙️ Options Pattern for strongly typed configuration
 🧪 Dependency Injection for modular and testable code
 
 🧪 Skills & Areas of Expertise
+
 ASP.NET Core Web API
 Clean Code and SOLID Principles
 Database Design & EF Core Migrations
@@ -63,6 +71,7 @@ Advanced Exception Handling
 Backend System Architecture
 
 🏁 Getting Started
+
 Prerequisites
 .NET 8 SDK
 SQL Server
